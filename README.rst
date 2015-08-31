@@ -26,8 +26,8 @@ Then add the following settings:
         'fluentcms_file',
     )
 
-    # The upload folder for all files.
-    # Defaults to the root of the media folder.
+    # The upload folder for all files
+    # Default: '.'
     FLUENTCMS_FILE_UPLOAD_TO = 'uploads/'
 
 The database tables can be created afterwards:
