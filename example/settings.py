@@ -132,3 +132,5 @@ STATIC_URL = '/static/'
 STATIC_URL = '/static/'
 
 FLUENT_PAGES_TEMPLATE_DIR = os.path.join(os.path.dirname(__file__), 'templates', 'layouts')
+
+FLUENTCMS_FILE_UPLOAD_TO = 'files/'
