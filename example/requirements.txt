@@ -1,0 +1,4 @@
+django
+django-fluent-contents
+django-fluent-pages
+south
