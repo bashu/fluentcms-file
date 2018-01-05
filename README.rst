@@ -3,6 +3,15 @@ fluentcms-file
 
 A file plugin for django-fluent-contents_
 
+.. image:: https://img.shields.io/pypi/v/fluentcms-file.svg
+    :target: https://pypi.python.org/pypi/fluentcms-file/
+
+.. image:: https://img.shields.io/github/license/bashu/fluentcms-file.svg
+    :target: https://pypi.python.org/pypi/fluentcms-file/
+
+.. image:: https://landscape.io/github/bashu/fluentcms-file/develop/landscape.svg?style=flat
+    :target: https://landscape.io/github/bashu/fluentcms-file/develop
+
 Installation
 ============
 
@@ -26,8 +35,8 @@ Then add the following settings:
         'fluentcms_file',
     )
 
-    # The upload folder for all files.
-    # Defaults to the root of the media folder.
+    # The upload folder for all files
+    # Default: '.'
     FLUENTCMS_FILE_UPLOAD_TO = 'uploads/'
 
 The database tables can be created afterwards:
