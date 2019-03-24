@@ -14,7 +14,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='FileItem',
             fields=[
-                ('contentitem_ptr', models.OneToOneField(parent_link=True, auto_created=True, primary_key=True, serialize=False, to='fluent_contents.ContentItem')),
+                ('contentitem_ptr', models.OneToOneField(parent_link=True, auto_created=True, primary_key=True, serialize=False, to='fluent_contents.ContentItem', on_delete=models.CASCADE)),
                 ('file', models.FileField(upload_to=b'', verbose_name='file')),
                 ('name', models.CharField(max_length=255, null=True, verbose_name='name', blank=True)),
             ],
