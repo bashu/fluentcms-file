@@ -1,5 +1,4 @@
 from django.utils.translation import gettext_lazy as _
-
 from fluent_contents.extensions import ContentPlugin, plugin_pool
 
 from .models import FileItem
@@ -10,6 +9,7 @@ class FilePlugin(ContentPlugin):
     """
     Plugin for rendering files.
     """
+
     model = FileItem
-    category = _('Media')
+    category = _("Media")
     render_template = "fluentcms_file/file.html"
