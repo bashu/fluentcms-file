@@ -1,8 +1,6 @@
 fluentcms-file
 ==============
 
-A file plugin for django-fluent-contents_
-
 .. image:: https://img.shields.io/pypi/v/fluentcms-file.svg
     :target: https://pypi.python.org/pypi/fluentcms-file/
 
@@ -12,8 +10,10 @@ A file plugin for django-fluent-contents_
 .. image:: https://img.shields.io/github/license/bashu/fluentcms-file.svg
     :target: https://pypi.python.org/pypi/fluentcms-file/
 
+A file plugin for django-fluent-contents_
+
 Installation
-============
+------------
 
 First install the module, preferably in a virtual environment. It can be installed from PyPI:
 
@@ -23,7 +23,7 @@ First install the module, preferably in a virtual environment. It can be install
 
 
 Backend Configuration
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 First make sure the project is configured for django-fluent-contents_.
 
@@ -49,7 +49,7 @@ Now, the ``FilePlugin`` can be added to your ``PlaceholderField`` and
 ``PlaceholderEditorAdmin`` admin screens.
 
 Frontend Configuration
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 If needed, the HTML code can be overwritten by redefining ``fluentcms_file/file.html``.
 
