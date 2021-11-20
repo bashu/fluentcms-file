@@ -1,0 +1,4 @@
+[run]
+source = fluentcms_file/
+omit =
+    */migrations/*
