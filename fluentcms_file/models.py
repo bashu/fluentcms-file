@@ -3,13 +3,10 @@ import os
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from fluent_contents.models.db import ContentItem
-from future.builtins import str
-from future.utils import python_2_unicode_compatible
 
 from . import appsettings
 
 
-@python_2_unicode_compatible
 class FileItem(ContentItem):
 
     file = models.FileField(_("file"), upload_to=appsettings.FLUENTCMS_FILE_UPLOAD_TO)

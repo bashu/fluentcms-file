@@ -10,6 +10,9 @@ fluentcms-file
 .. image:: https://img.shields.io/github/license/bashu/fluentcms-file.svg
     :target: https://pypi.python.org/pypi/fluentcms-file/
 
+.. image:: https://app.travis-ci.com/bashu/fluentcms-file.svg?branch=develop
+    :target: https://app.travis-ci.com/bashu/fluentcms-file/
+
 A file plugin for django-fluent-contents_
 
 Installation
